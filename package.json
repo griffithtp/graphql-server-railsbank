@@ -1,0 +1,21 @@
+{
+  "name": "storm-bank",
+  "version": "0.0.1",
+  "description": "GraphQL Server using RailsBank API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "Griffith Tchenpan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.0",
+    "config.json": "0.0.4",
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.11.7",
+    "node-fetch": "^1.7.3",
+    "nodemon": "^1.12.1"
+  }
+}
